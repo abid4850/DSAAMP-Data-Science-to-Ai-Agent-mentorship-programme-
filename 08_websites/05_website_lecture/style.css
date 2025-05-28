@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+
+:root {
+    --black: #16161d;
+    --white: #fff;
+    --light-big: #f8f8f2;
+    --google-blue: #4285f4;
+    --twitter-blue: #1da1f2;
+    --github-blue: #24292e;
+    --linkedin-blue: #0077b5;
+    --youtube-red: #ff0000;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+.btn {
+    padding: 1.5rem 4rem;
+    border-radius: 10rem;
+    border: 0.1rem solid var(--white);
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--black);
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+.heading {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+/* home  */
+.home {
+    height: 100vh;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('./images/aziz-acharki-Cxdm6zOoHrw-unsplash.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.home .btn {
+    background-color: var(--white);
+    color: var(--black);
+    font-weight: 700;
+    font-size: 2rem;
+}
+.home h1 {
+    font-size: 6rem;
+    font-weight: 900;
+    color: var(--white);
+    margin-bottom: 3rem;
+}
+
+.home p {
+    font-size: 1.7rem;
+    color: var(--white);
+    margin-bottom: 3rem;
+    font-weight: 400;
+    text-transform: none;
+}
+/* home  */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 9% 5rem;
+    z-index: 100;
+}
+.header .active {
+    background: var(--white);
+    padding: 3rem 9%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1 );
+}
+.header .btn {
+    margin-right: auto;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.header .logo {
+    margin-right: auto;
+    font-size: 2rem;
+    color: var(--white);
+    font-weight: 900;
+    
+}
+.header .logo span {
+    font-weight: normal;
+}
+.header .navvar {
+    font-size: 3rem;                           
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* about */
+.about .box-container .box .image img{
+    height: 40rem;
+}
+.about .box-container .box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about .box-container {
+    display: grid;
+    grid-template-columns: repeat(out-fit, minmax);
+    gap: 2rem;
+}
+.about .box-container .box p {
+    font-size: 1.7rem;
+    line-height: 1.5;
+    color: var(--light-color);
+    margin-bottom: 1.5rem;
+    text-transform: none;
+}
+/* about */

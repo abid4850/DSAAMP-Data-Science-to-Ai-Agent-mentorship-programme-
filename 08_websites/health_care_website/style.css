@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+}
+
+header {
+  background: #27ae60;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background: white;
+  color: #27ae60;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -220px;
+  width: 200px;
+  height: 100%;
+  background: #2ecc71;
+  padding-top: 4rem;
+  transition: left 0.3s ease;
+  z-index: 999;
+}
+
+.sidebar.active {
+  left: 0;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  border-bottom: 1px solid #27ae60;
+}
+
+main {
+  padding: 2rem;
+}
+
+.tips-list li {
+  margin: 0.5rem 0;
+}
+
+.blog-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.blog-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  flex: 1 1 250px;
+}
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+form input, form button {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+form button {
+  background: #27ae60;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background: #27ae60;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}

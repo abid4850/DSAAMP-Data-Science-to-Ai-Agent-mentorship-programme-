@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealthNext</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Menu Button -->
+  <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+
+  <!-- Sidebar Navigation -->
+  <nav id="sidebar" class="sidebar">
+    <a href="#about">About</a>
+    <a href="#tips">Health Tips</a>
+    <a href="#blog">Health Blog</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#subscribe">Subscribe</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>HealthNext</h1>
+    <p>Your guide to modern wellness & digital health solutions</p>
+    <a href="#blog" class="btn">Explore Blog</a>
+  </header>
+
+  <main>
+    <section id="tips">
+      <h2>Quick Health Tips</h2>
+      <ul class="tips-list">
+        <li>💧 Stay Hydrated</li>
+        <li>😴 Prioritize Sleep</li>
+        <li>🥗 Eat Whole Foods</li>
+        <li>🚶‍♀️ Walk Every Day</li>
+        <li>📵 Limit Screen Time</li>
+      </ul>
+    </section>
+
+    <section id="blog">
+      <h2>Latest Health Articles</h2>
+      <div class="blog-grid">
+        <div class="blog-card">
+          <h3>Daily Fitness Hacks</h3>
+          <p>Stay fit with smart, time-efficient workout tips for every lifestyle.</p>
+        </div>
+        <div class="blog-card">
+          <h3>Modern Nutrition</h3>
+          <p>Top foods backed by science to boost your immunity and clarity.</p>
+        </div>
+        <div class="blog-card">
+          <h3>Health Tech 2025</h3>
+          <p>Explore wearables and apps that help track your well-being.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>Health Gallery</h2>
+      <div class="gallery">
+        <img src="images/yoga.jpg" alt="Yoga">
+        <img src="images/healthy-food.jpg" alt="Healthy Food">
+        <img src="images/running.jpg" alt="Running">
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About HealthNext</h2>
+      <p>We share the latest in health research, fitness routines, and digital tools designed to improve your well-being.</p>
+    </section>
+
+    <section id="subscribe">
+      <h2>Join Our Health Community</h2>
+      <form onsubmit="event.preventDefault(); alert('Subscribed!')">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:hello@healthnext.com">hello@healthnext.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HealthNext. All rights reserved.</p>
+  </footer>
+</body>
+</html>

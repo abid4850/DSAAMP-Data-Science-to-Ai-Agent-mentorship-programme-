@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beauty Bliss</title>
+  <meta name="description" content="Glow naturally with our best beauty tips, skincare routines, and expert wellness advice.">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="overlay">
+      <h1>Welcome to Beauty Bliss</h1>
+      <p>Your daily guide to glowing skin, timeless looks, and natural wellness.</p>
+      <a href="#tips" class="btn">Explore Tips</a>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#tips">Tips</a>
+    <a href="#routines">Routines</a>
+    <a href="#blog">Blog</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#subscribe">Subscribe</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about" data-aos="fade-up">
+      <h2>About Beauty Bliss</h2>
+      <p>We empower you to feel confident with skincare secrets, makeup tutorials, and holistic beauty advice tailored just for you.</p>
+    </section>
+
+    <section id="tips" data-aos="fade-right">
+      <h2>Top Beauty Tips</h2>
+      <ul>
+        <li>Stay hydrated for a natural glow.</li>
+        <li>Use SPF every day — even indoors!</li>
+        <li>Clean your brushes weekly to avoid breakouts.</li>
+        <li>Sleep well — beauty sleep is real.</li>
+      </ul>
+    </section>
+
+    <section id="routines" data-aos="fade-left">
+      <h2>Skincare Routines</h2>
+      <ol>
+        <li>Morning Routine: Cleanser → Serum → Moisturizer → Sunscreen</li>
+        <li>Evening Routine: Double Cleanse → Toner → Night Cream → Eye Gel</li>
+        <li>Weekly: Exfoliate and apply hydrating mask</li>
+      </ol>
+    </section>
+
+    <section id="blog" data-aos="zoom-in">
+      <h2>Beauty Blog</h2>
+      <div class="blog-container">
+        <div class="blog-card">
+          <h3>5 DIY Face Masks</h3>
+          <p>Make your skin glow naturally using common ingredients from your kitchen.</p>
+        </div>
+        <div class="blog-card">
+          <h3>Summer Skincare Tips</h3>
+          <p>Beat the heat with dermatologist-recommended ways to stay cool and flawless.</p>
+        </div>
+        <div class="blog-card">
+          <h3>Morning vs. Night Routines</h3>
+          <p>Why your AM and PM skincare needs are totally different — and what to use.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" data-aos="fade-up">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="images/beauty1.jpg" alt="Makeup Look">
+        <img src="images/beauty2.jpg" alt="Skincare Routine">
+        <img src="images/beauty3.jpg" alt="Before and After">
+      </div>
+    </section>
+
+    <section id="subscribe" data-aos="flip-left">
+      <h2>Subscribe to Beauty Bliss</h2>
+      <p>Get free weekly tips, natural skincare recipes, and product updates in your inbox!</p>
+      <form onsubmit="event.preventDefault(); alert('Thank you for subscribing!')">
+        <input type="email" placeholder="Your email address" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <section id="contact" data-aos="fade-in">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:hello@beautybliss.com">hello@beautybliss.com</a></p>
+      <p>Follow us on 
+        <a href="#"><i class="fab fa-instagram"></i></a> 
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Beauty Bliss. Crafted with 💖 for your glow-up journey.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+
+<script src="script.js"></script>
