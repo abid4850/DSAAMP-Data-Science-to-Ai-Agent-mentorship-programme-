@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo News - World</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+        .header {
+            background: #002147;
+            color: #fff;
+            padding: 20px 0 10px 0;
+            text-align: center;
+        }
+        .nav {
+            background: #003366;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 10px 0;
+        }
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 16px;
+            transition: color 0.2s;
+        }
+        .nav a:hover {
+            color: #ffb300;
+        }
+        .main {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+        }
+        .news-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .news-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .news-card-content {
+            padding: 16px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .news-card-title {
+            font-size: 20px;
+            color: #002147;
+            margin: 0 0 10px 0;
+            font-weight: bold;
+        }
+        .news-card-desc {
+            color: #444;
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+        .news-card-link {
+            margin-top: auto;
+            color: #003366;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .news-card-link:hover {
+            color: #ffb300;
+        }
+        @media (max-width: 600px) {
+            .main { padding: 0 5px; }
+            .news-card img { height: 120px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Geo News</h1>
+        <h2 style="font-weight:400; color:#ffb300; margin-top:8px;">World Headlines</h2>
+    </div>
+    <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Pakistan</a>
+        <a href="#">World</a>
+        <a href="#">Business</a>
+        <a href="#">Sports</a>
+        <a href="#">Entertainment</a>
+        <a href="#">Health</a>
+        <a href="#">Sci-Tech</a>
+    </nav>
+    <div class="main">
+        <div class="news-grid">
+            <div class="news-card">
+                <img src="https://www.geo.tv/assets/front/images/placeholders/100x75.png" alt="Russia and Ukraine step up the war on eve of peace talks">
+                <div class="news-card-content">
+                    <div class="news-card-title">Russia and Ukraine step up the war on eve of peace talks</div>
+                    <div class="news-card-desc">Ukraine attacks Russian nuclear-capable long-range bombers at a military base deep in Siberia.</div>
+                    <a class="news-card-link" href="https://www.geo.tv/latest/607263-russia-and-ukraine-step-up-the-war-on-eve-of-peace-talks" target="_blank">Read more</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="https://www.geo.tv/assets/front/images/placeholders/100x75.png" alt="India arrests dozens for ‘sympathising' with Pakistan">
+                <div class="news-card-content">
+                    <div class="news-card-title">India arrests dozens for ‘sympathising' with Pakistan</div>
+                    <div class="news-card-desc">Indian authorities have arrested dozens for allegedly showing sympathy towards Pakistan.</div>
+                    <a class="news-card-link" href="https://www.geo.tv/latest/607246-india-arrests-dozens-for-sympathising-with-pakistan" target="_blank">Read more</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="https://www.geo.tv/assets/front/images/placeholders/100x75.png" alt="China vows to 'oppose hegemonism harming Asia-Pacific region'">
+                <div class="news-card-content">
+                    <div class="news-card-title">China vows to 'oppose hegemonism harming Asia-Pacific region'</div>
+                    <div class="news-card-desc">China has pledged to counter hegemonic actions that threaten the Asia-Pacific region.</div>
+                    <a class="news-card-link" href="https://www.geo.tv/latest/607229-china-vows-to-oppose-hegemonism-harming-asia-pacific-region" target="_blank">Read more</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="https://www.geo.tv/assets/front/images/placeholders/100x75.png" alt="India's monsoon rains kill at least 30 in northeast">
+                <div class="news-card-content">
+                    <div class="news-card-title">India's monsoon rains kill at least 30 in northeast</div>
+                    <div class="news-card-desc">Heavy monsoon rains in northeast India have resulted in at least 30 deaths.</div>
+                    <a class="news-card-link" href="https://www.geo.tv/latest/607222-indias-monsoon-rains-kill-at-least-30-in-northeast" target="_blank">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BBC Business News Highlights</title>
+  <meta name="description" content="BBC Business News highlights in a blue theme."/>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #e0f2fe 0%, #93c5fd 50%, #3b82f6 100%);
+      color: #1e3a8a;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #f0f9ff;
+      border-radius: 28px;
+      box-shadow: 0 8px 40px rgba(30, 64, 175, 0.1);
+      padding: 44px 32px 36px 32px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.8em;
+      font-weight: 900;
+      background: linear-gradient(90deg, #3b82f6, #1e3a8a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .news-block {
+      background: #e0f2fe;
+      border-left: 6px solid #2563eb;
+      border-radius: 16px;
+      margin-bottom: 28px;
+      padding: 24px 26px 18px 26px;
+      box-shadow: 0 3px 16px rgba(30, 64, 175, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .news-block:hover {
+      transform: translateY(-4px);
+    }
+
+    .news-title {
+      font-size: 1.4em;
+      font-weight: 700;
+      color: #1e40af;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #3b82f6;
+      padding-bottom: 6px;
+    }
+
+    .news-detail {
+      font-size: 1.1em;
+      color: #1e3a8a;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px 14px;
+      }
+      h1 {
+        font-size: 1.6em;
+      }
+      .news-title {
+        font-size: 1.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>BBC Business News Highlights</h1>
+
+    <div class="news-block">
+      <div class="news-title">1. Executive Lounge</div>
+      <div class="news-detail">
+        Nell Diamond, CEO of Hill House Home, shares how her small business skyrocketed with the Nap Dress in 2019. Cherie Clonan explains how wellbeing perks like ADHD assessments have boosted team morale and profits. Duolingo remains the gold standard in gamified learning, keeping 34 million users hooked daily.
+      </div>
+    </div>
+
+    <div class="news-block">
+      <div class="news-title">2. Technology of Business</div>
+      <div class="news-detail">
+        Federal funding for green energy projects hangs in the balance. Indian startups innovate using local materials. New lightweight cameras make single-shot TV productions a reality.
+      </div>
+    </div>
+
+    <div class="news-block">
+      <div class="news-title">3. Future of Business</div>
+      <div class="news-detail">
+        Elsham Wolds is proposed as an AI training hub. Nvidia sees a pre-market surge after beating Wall Street forecasts. As AI rapidly evolves, experts debate the future of machine sentience and practical adoption.
+      </div>
+    </div>
+
+    <div class="news-block">
+      <div class="news-title">4. World of Business</div>
+      <div class="news-detail">
+        Hackers reach out via Telegram when ransom demands go unmet. The BBC visits a new Taiwanese chip plant in Arizona. Cyberattacks continue to make headlines.
+      </div>
+    </div>
+
+    <div class="news-block">
+      <div class="news-title">5. NYSE Opening Bell</div>
+      <div class="news-detail">
+        "Business Today – NYSE Opening Bell" launches live from NYC at 9:30am EST on BBC News. The program explores market movement, global investment trends, and impacts of new tax legislation.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
