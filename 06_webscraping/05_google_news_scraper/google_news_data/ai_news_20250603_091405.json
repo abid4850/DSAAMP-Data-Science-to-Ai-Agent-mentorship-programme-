@@ -1,0 +1,632 @@
+[
+  {
+    "scraped_at": "2025-06-03T09:14:01.037395",
+    "publisher": "Exclusive | Meta Aims to Fully Automate Ad Creation Using AI",
+    "published_time": "18 hours ago",
+    "published_datetime": "2025-06-02T15:14:01.040391",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.wsj.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.042390",
+    "publisher": "Meta aims to fully automate advertising with AI by 2026, WSJ reports",
+    "published_time": "13 hours ago",
+    "published_datetime": "2025-06-02T20:14:01.044387",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.044387",
+    "publisher": "Facebook and Instagram owner Meta to enable AI ad creation by end of next year",
+    "published_time": "16 hours ago",
+    "published_datetime": "2025-06-02T17:14:01.046900",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.046900",
+    "publisher": "Nvidia rival Groq makes a bold prediction on what's next for AI",
+    "published_time": "15 hours ago",
+    "published_datetime": "2025-06-02T18:14:01.048901",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://finance.yahoo.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.049897",
+    "publisher": "TSMC says tariffs have some impact but AI demand robust",
+    "published_time": "33 minutes ago",
+    "published_datetime": "2025-06-03T08:41:01.050901",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.051898",
+    "publisher": "AI Pioneer Launches Research Group to Help Build Safer Agents",
+    "published_time": "12 minutes ago",
+    "published_datetime": "2025-06-03T09:02:01.052896",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.bloomberg.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.053895",
+    "publisher": "CBS News Texas' Eye on Health explores AI’s growing impact on healthcare access",
+    "published_time": "1 hour ago",
+    "published_datetime": "2025-06-03T08:14:01.055898",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cbsnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.055898",
+    "publisher": "How far will AI go to defend its own survival?",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-06-01T09:14:01.057895",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.nbcnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.057895",
+    "publisher": "FDA Launches Agency-Wide AI Tool to Optimize Performance for the American People",
+    "published_time": "9 hours ago",
+    "published_datetime": "2025-06-03T00:14:01.059897",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.fda.gov&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.060897",
+    "publisher": "Barack Obama and Steve Bannon agree on something: AI's role in American jobs, politics",
+    "published_time": "10 hours ago",
+    "published_datetime": "2025-06-02T23:14:01.061896",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.usatoday.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.062898",
+    "publisher": "Behind the Curtain: Trump risks pushing world into China's arms on AI",
+    "published_time": "17 hours ago",
+    "published_datetime": "2025-06-02T16:14:01.063897",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.axios.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.064896",
+    "publisher": "‘One day I overheard my boss saying: just put it in ChatGPT’: the workers who lost their jobs to AI",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-06-01T09:14:01.065896",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.066896",
+    "publisher": "FDA rolls out AI tool agency-wide, weeks ahead of schedule",
+    "published_time": "8 hours ago",
+    "published_datetime": "2025-06-03T01:14:01.067896",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.statnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.068896",
+    "publisher": "Teaching AI models the broad strokes to sketch more like humans do",
+    "published_time": "9 hours ago",
+    "published_datetime": "2025-06-03T00:14:01.070895",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://news.mit.edu&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.070895",
+    "publisher": "Artificial Intelligence",
+    "published_time": "5 hours ago",
+    "published_datetime": "2025-06-03T04:14:01.072896",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.nyit.edu&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.072896",
+    "publisher": "Snowflake to Acquire Crunchy Data to Strengthen AI Agent Business",
+    "published_time": "3 hours ago",
+    "published_datetime": "2025-06-03T06:14:01.074895",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.pymnts.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.074895",
+    "publisher": "Why Meta Platforms Stock Soared on AI News Today",
+    "published_time": "5 hours ago",
+    "published_datetime": "2025-06-03T04:14:01.076896",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.fool.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.077897",
+    "publisher": "Thomson Reuters Ushers in the Next Era of AI with Launch of Agentic Intelligence",
+    "published_time": "15 hours ago",
+    "published_datetime": "2025-06-02T18:14:01.078899",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.thomsonreuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.079896",
+    "publisher": "Government AI copyright plan suffers fourth House of Lords defeat",
+    "published_time": "21 hours ago",
+    "published_datetime": "2025-06-02T12:14:01.080897",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.081898",
+    "publisher": "Meta Stock Hits Three-Month High After AI Ad Automation Report; Advertising Stocks Fall",
+    "published_time": "7 hours ago",
+    "published_datetime": "2025-06-03T02:14:01.082899",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.investors.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.083899",
+    "publisher": "AI is a team sport, says Chief AI Officer",
+    "published_time": "11 hours ago",
+    "published_datetime": "2025-06-02T22:14:01.084896",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.healthcareitnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.085896",
+    "publisher": "Microsoft to invest $400 million in Switzerland on AI, cloud computing",
+    "published_time": "7 hours ago",
+    "published_datetime": "2025-06-03T02:14:01.086897",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.087895",
+    "publisher": "AI stirs up the recipe for concrete in MIT study",
+    "published_time": "8 hours ago",
+    "published_datetime": "2025-06-03T01:14:01.088896",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://news.mit.edu&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.089898",
+    "publisher": "AI Startup’s Digital Storefronts Prepare Brands for AI Searches, Agentic Economy",
+    "published_time": "5 hours ago",
+    "published_datetime": "2025-06-03T04:14:01.090896",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.pymnts.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.092898",
+    "publisher": "US FDA launches AI tool to reduce time taken for scientific reviews",
+    "published_time": "6 hours ago",
+    "published_datetime": "2025-06-03T03:14:01.093900",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.094896",
+    "publisher": "Meta to Use GenAI to Automate Ad Creation and Targeting",
+    "published_time": "3 hours ago",
+    "published_datetime": "2025-06-03T06:14:01.095897",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.pymnts.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.096900",
+    "publisher": "IBM Unveils watsonx AI Labs in New York City",
+    "published_time": "8 hours ago",
+    "published_datetime": "2025-06-03T01:14:01.097899",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://insideainews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.098899",
+    "publisher": "McKinsey Leans On AI to Make PowerPoints, Draft Proposals",
+    "published_time": "12 hours ago",
+    "published_datetime": "2025-06-02T21:14:01.100897",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.bloomberg.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.100897",
+    "publisher": "‘Change of era’ prompts Catholic University of America to launch new degrees in AI",
+    "published_time": "9 hours ago",
+    "published_datetime": "2025-06-03T00:14:01.102900",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.osvnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.103900",
+    "publisher": "Salesforce buys Moonhub, a startup building AI tools for hiring",
+    "published_time": "9 hours ago",
+    "published_datetime": "2025-06-03T00:14:01.104901",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://techcrunch.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.105902",
+    "publisher": "Meta plans to replace humans with AI to assess privacy and societal risks",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-31T09:14:01.108902",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.npr.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.108902",
+    "publisher": "AI strategies promise smarter systems without sacrificing personal privacy",
+    "published_time": "7 hours ago",
+    "published_datetime": "2025-06-03T02:14:01.111747",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://techxplore.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.111747",
+    "publisher": "Why Tempus AI Stock Soared 15% Today",
+    "published_time": "6 hours ago",
+    "published_datetime": "2025-06-03T03:14:01.113957",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://finance.yahoo.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.113957",
+    "publisher": "McKinsey Is Using AI to Create PowerPoints and Take Over Junior Employee Tasks: 'Technology Could Do That'",
+    "published_time": "7 hours ago",
+    "published_datetime": "2025-06-03T02:14:01.115956",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.entrepreneur.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.117958",
+    "publisher": "'The Beautiful Game' falls for AI's charms",
+    "published_time": "2 hours ago",
+    "published_datetime": "2025-06-03T07:14:01.119958",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.mykxlg.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.121470",
+    "publisher": "$1 billion AI data center coming to Madison, Rockingham County officials say",
+    "published_time": "3 hours ago",
+    "published_datetime": "2025-06-03T06:14:01.123480",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.wfmynews2.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.125482",
+    "publisher": "WWDC 2025: Apple Employees Say Conference Will Be AI News ‘Letdown’",
+    "published_time": "11 hours ago",
+    "published_datetime": "2025-06-02T22:14:01.127481",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.techrepublic.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.127481",
+    "publisher": "Reports: xAI Launches $5 Billion Debt Sale and $300 Million Share Sale",
+    "published_time": "3 hours ago",
+    "published_datetime": "2025-06-03T06:14:01.129482",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.pymnts.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.130479",
+    "publisher": "How Humans Emotionally Bond With AI",
+    "published_time": "8 hours ago",
+    "published_datetime": "2025-06-03T01:14:01.131489",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://neurosciencenews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.132490",
+    "publisher": "WP Intelligence Names Jason Dean Lead Analyst for AI and Technology Council",
+    "published_time": "4 hours ago",
+    "published_datetime": "2025-06-03T05:14:01.134488",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.washingtonpost.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.135488",
+    "publisher": "FDA Authorizes AI Platform for Breast Cancer Prediction",
+    "published_time": "8 hours ago",
+    "published_datetime": "2025-06-03T01:14:01.136487",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.itnonline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.137487",
+    "publisher": "AWS Weekly Roundup: Amazon Aurora DSQL, MCP Servers, Amazon FSx, AI on EKS, and more (June 2, 2025)",
+    "published_time": "13 hours ago",
+    "published_datetime": "2025-06-02T20:14:01.139489",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://aws.amazon.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.140489",
+    "publisher": "AI becomes the “digital front door” to healthcare, says Baylor Scott & White doctor",
+    "published_time": "2 hours ago",
+    "published_datetime": "2025-06-03T07:14:01.142490",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cbsnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.143491",
+    "publisher": "⚡ Weekly Recap: APT Intrusions, AI Malware, Zero-Click Exploits, Browser Hijacks and More",
+    "published_time": "16 hours ago",
+    "published_datetime": "2025-06-02T17:14:01.144656",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://thehackernews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.144656",
+    "publisher": "Recogni and DataVolt Partner on Energy-Efficient AI Cloud Infrastructure",
+    "published_time": "11 hours ago",
+    "published_datetime": "2025-06-02T22:14:01.147665",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://insideainews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.147665",
+    "publisher": "Researchers and Students in Türkiye Build AI, Robotics Tools to Boost Disaster Readiness",
+    "published_time": "13 hours ago",
+    "published_datetime": "2025-06-02T20:14:01.149664",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://blogs.nvidia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.150665",
+    "publisher": "AstraZeneca Racks Up AI Partners, Seeking To Stop Cancer at All Stages",
+    "published_time": "14 hours ago",
+    "published_datetime": "2025-06-02T19:14:01.151666",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.biospace.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.152667",
+    "publisher": "Microsoft Deepens Switzerland’s Digital Future with Strategic Investment in Cloud and AI Infrastructure, Startups, Skilling and Innovation",
+    "published_time": "16 hours ago",
+    "published_datetime": "2025-06-02T17:14:01.154071",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://news.microsoft.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.155348",
+    "publisher": "Is C3.ai Stock a Buy?",
+    "published_time": "19 hours ago",
+    "published_datetime": "2025-06-02T14:14:01.158343",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.fool.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.159619",
+    "publisher": "Is AI replacing insurance agents? New labor study says ‘not yet’",
+    "published_time": "12 hours ago",
+    "published_datetime": "2025-06-02T21:14:01.161131",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://insurancenewsnet.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.161131",
+    "publisher": "AI pioneer announces non-profit to develop ‘honest’ artificial intelligence",
+    "published_time": "13 minutes ago",
+    "published_datetime": "2025-06-03T09:01:01.163135",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.164135",
+    "publisher": "I'm a Tech Executive and I'm Afraid of AI",
+    "published_time": "5 hours ago",
+    "published_datetime": "2025-06-03T04:14:01.165134",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.usnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.167131",
+    "publisher": "AI can outperform humans in emotional intelligence tests, study finds",
+    "published_time": "1 hour ago",
+    "published_datetime": "2025-06-03T08:14:01.169131",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.jpost.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.171133",
+    "publisher": "How the AI rush is reshaping electric utilities",
+    "published_time": "17 hours ago",
+    "published_datetime": "2025-06-02T16:14:01.173133",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.eenews.net&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.174137",
+    "publisher": "Why Meta Platforms Stock Soared on AI News Today",
+    "published_time": "4 hours ago",
+    "published_datetime": "2025-06-03T05:14:01.177392",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.msn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.178392",
+    "publisher": "Arizona Supreme Court turns to AI-generated 'reporters' to deliver news",
+    "published_time": "4 days ago",
+    "published_datetime": "2025-05-30T09:14:01.180392",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.nbcnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.180392",
+    "publisher": "Universal, Warner, and Sony in talks to license AI music generators Suno and Udio (report)",
+    "published_time": "16 hours ago",
+    "published_datetime": "2025-06-02T17:14:01.182390",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.musicbusinessworldwide.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.183393",
+    "publisher": "How AI can make clinical registry participation more efficient",
+    "published_time": "7 hours ago",
+    "published_datetime": "2025-06-03T02:14:01.185399",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.healthcareitnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.186392",
+    "publisher": "Job Applicants Are Facing AI Interviewers – With Mixed Results",
+    "published_time": "9 hours ago",
+    "published_datetime": "2025-06-03T00:14:01.187394",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.eweek.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.188389",
+    "publisher": "Go Creative Show– AI in Filmmaking: The Good, The Bad, and What You Really Need to Know",
+    "published_time": "3 hours ago",
+    "published_datetime": "2025-06-03T06:14:01.190397",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.newsshooter.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.190397",
+    "publisher": "AI influencers compete for followers and brand deals on social media",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-31T09:14:01.193401",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://abcnews.go.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.194402",
+    "publisher": "The Verge hires Field as senior AI reporter",
+    "published_time": "12 hours ago",
+    "published_datetime": "2025-06-02T21:14:01.195425",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://talkingbiznews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.196423",
+    "publisher": "Experts Warn of AI’s Self-Preservation Tactics in New Tests",
+    "published_time": "11 hours ago",
+    "published_datetime": "2025-06-02T22:14:01.197424",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.mensjournal.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.198427",
+    "publisher": "F5 grabs agentic AI startup Fletch to bolster security platform",
+    "published_time": "6 hours ago",
+    "published_datetime": "2025-06-03T03:14:01.200428",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.networkworld.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.201435",
+    "publisher": "Tempus AI jumps after hit from short seller’s report",
+    "published_time": "11 hours ago",
+    "published_datetime": "2025-06-02T22:14:01.202641",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://sherwood.news&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.203644",
+    "publisher": "BigBear.ai may sell up $150M in stock offering (BBAI:NYSE)",
+    "published_time": "17 hours ago",
+    "published_datetime": "2025-06-02T16:14:01.205642",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://seekingalpha.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.207065",
+    "publisher": "CE 100 Index Gains 1.7% as Investors Send AI-Related Names Higher",
+    "published_time": "17 hours ago",
+    "published_datetime": "2025-06-02T16:14:01.208065",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.pymnts.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.210063",
+    "publisher": "Samsung may incorporate Perplexity’s AI tech in its phones",
+    "published_time": "15 hours ago",
+    "published_datetime": "2025-06-02T18:14:01.211066",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://techcrunch.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.212067",
+    "publisher": "AI is key to decoding aging",
+    "published_time": "8 hours ago",
+    "published_datetime": "2025-06-03T01:14:01.214076",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.healthcareitnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.214076",
+    "publisher": "Pool: AI didn't write this",
+    "published_time": "17 hours ago",
+    "published_datetime": "2025-06-02T16:14:01.216073",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.news-journal.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.217070",
+    "publisher": "Tech Veteran Asim Akram Takes CEO Role at MultiSensor AI: Major Push into Industrial IoT and Predictive Tech",
+    "published_time": "9 hours ago",
+    "published_datetime": "2025-06-03T00:14:01.218065",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.stocktitan.net&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.219366",
+    "publisher": "AI is remaking — and breaking — the web",
+    "published_time": "20 hours ago",
+    "published_datetime": "2025-06-02T13:14:01.220364",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.axios.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.221782",
+    "publisher": "Brex: AI saving clients169K accounting hours each month",
+    "published_time": "8 hours ago",
+    "published_datetime": "2025-06-03T01:14:01.223784",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://bankautomationnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.224816",
+    "publisher": "AI chatbots deliver minimal productivity gains, study finds",
+    "published_time": "17 hours ago",
+    "published_datetime": "2025-06-02T16:14:01.226202",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.computerworld.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.227200",
+    "publisher": "Tempus AI hits back at scathing short report",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-31T09:14:01.229199",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.thestreet.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.229199",
+    "publisher": "US lawyer sanctioned after being caught using ChatGPT for court brief",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-06-01T09:14:01.231199",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.232208",
+    "publisher": "R1 secures investment for agentic AI in revenue cycle management",
+    "published_time": "12 hours ago",
+    "published_datetime": "2025-06-02T21:14:01.234211",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.techtarget.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.235210",
+    "publisher": "iFIT Takes AI Coach Global, Launching in 19 Countries",
+    "published_time": "8 hours ago",
+    "published_datetime": "2025-06-03T01:14:01.237209",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://athletechnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.238218",
+    "publisher": "ADDING MULTIMEDIA Clairity Becomes the First FDA-Authorized AI Platform for Breast Cancer Prediction – Historic Milestone for Women’s Health",
+    "published_time": "10 hours ago",
+    "published_datetime": "2025-06-02T23:14:01.240216",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.businesswire.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.240216",
+    "publisher": "Zscaler, Vectra AI Expand Cloud Cybersecurity Partnership",
+    "published_time": "9 hours ago",
+    "published_datetime": "2025-06-03T00:14:01.242432",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.investors.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.243429",
+    "publisher": "Iconic Action Star, 71, Makes Bold Admission About AI Stunts",
+    "published_time": "4 hours ago",
+    "published_datetime": "2025-06-03T05:14:01.244428",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://parade.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.246433",
+    "publisher": "Real-life ways accountants are using AI",
+    "published_time": "2 days ago",
+    "published_datetime": "2025-06-01T09:14:01.247953",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.journalofaccountancy.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.248953",
+    "publisher": "Palantir's stock price surges on AI news, gamma squeeze",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-31T09:14:01.250953",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.thestreet.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.250953",
+    "publisher": "'The Beautiful Game' falls for AI's charms",
+    "published_time": "2 hours ago",
+    "published_datetime": "2025-06-03T07:14:01.252953",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.djournal.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.253954",
+    "publisher": "Diabetes management: IBM and Roche use AI to forecast blood sugar levels",
+    "published_time": "11 hours ago",
+    "published_datetime": "2025-06-02T22:14:01.254958",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.artificialintelligence-news.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.255954",
+    "publisher": "A teen died after being blackmailed with A.I.-generated nudes. His family is fighting for change",
+    "published_time": "3 days ago",
+    "published_datetime": "2025-05-31T09:14:01.257961",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cbsnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.260954",
+    "publisher": "‘Partner With Me’: Fox News Guest Pitches Trump on ‘AI-Powered Threat Detection System’",
+    "published_time": "1 hour ago",
+    "published_datetime": "2025-06-03T08:14:01.262953",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.mediaite.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.263952",
+    "publisher": "This little-known AI darling is climbing the Fortune 500 faster than any other company",
+    "published_time": "17 hours ago",
+    "published_datetime": "2025-06-02T16:14:01.265954",
+    "thumbnail_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://finance.yahoo.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.266951",
+    "publisher": "Applied Digital Lands Massive $7B CoreWeave Deal for 250MW AI Data Center Complex in North Dakota",
+    "published_time": "16 hours ago",
+    "published_datetime": "2025-06-02T17:14:01.267954",
+    "thumbnail_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.stocktitan.net&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  },
+  {
+    "scraped_at": "2025-06-03T09:14:01.269951",
+    "publisher": "'The Beautiful Game' falls for AI's charms",
+    "published_time": "2 hours ago",
+    "published_datetime": "2025-06-03T07:14:01.271953",
+    "thumbnail_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.messenger-inquirer.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+  }
+]

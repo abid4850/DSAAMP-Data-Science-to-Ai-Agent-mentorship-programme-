@@ -1,0 +1,67 @@
+2025-06-03 09:03:30,270 - INFO - Starting Google News scraper for AI news
+2025-06-03 09:03:53,230 - INFO - Searching for: 3
+2025-06-03 09:04:24,538 - INFO - Selenium: Found 90 articles on search page
+2025-06-03 09:04:24,544 - INFO - Saved data to google_news_data\3_20250603_090424.json
+2025-06-03 09:04:24,549 - INFO - Saved 90 articles to google_news_data\3_20250603_090424.csv
+2025-06-03 09:04:35,132 - ERROR - Error in keyword analysis: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\abidh/nltk_data'
+    - 'C:\\Users\\abidh\\miniconda3\\envs\\web_scraping\\nltk_data'
+    - 'C:\\Users\\abidh\\miniconda3\\envs\\web_scraping\\share\\nltk_data'
+    - 'C:\\Users\\abidh\\miniconda3\\envs\\web_scraping\\lib\\nltk_data'
+    - 'C:\\Users\\abidh\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-06-03 09:04:35,136 - INFO - Saved data to google_news_data\3_analysis_20250603_090424.json
+2025-06-03 09:04:40,549 - INFO - Generated word cloud: 3_wordcloud_20250603_090424.png
+2025-06-03 09:04:40,795 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-03 09:04:40,798 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-03 09:04:41,445 - INFO - Generated timeline chart: 3_timeline_20250603_090424.png
+2025-06-03 09:13:26,980 - INFO - Starting Google News scraper for AI news
+2025-06-03 09:13:47,074 - INFO - Searching for: AI news
+2025-06-03 09:14:05,053 - INFO - Selenium: Found 90 articles on search page
+2025-06-03 09:14:05,057 - INFO - Saved data to google_news_data\ai_news_20250603_091405.json
+2025-06-03 09:14:05,062 - INFO - Saved 90 articles to google_news_data\ai_news_20250603_091405.csv
+2025-06-03 09:14:39,680 - ERROR - Error in keyword analysis: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\abidh/nltk_data'
+    - 'C:\\Users\\abidh\\miniconda3\\envs\\web_scraping\\nltk_data'
+    - 'C:\\Users\\abidh\\miniconda3\\envs\\web_scraping\\share\\nltk_data'
+    - 'C:\\Users\\abidh\\miniconda3\\envs\\web_scraping\\lib\\nltk_data'
+    - 'C:\\Users\\abidh\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-06-03 09:14:39,680 - ERROR - Error analyzing article dates: 'title'
+2025-06-03 09:14:39,688 - INFO - Saved data to google_news_data\ai_news_analysis_20250603_091405.json
+2025-06-03 09:14:39,690 - ERROR - Error generating word cloud: We need at least 1 word to plot a word cloud, got 0.
+2025-06-03 09:14:39,904 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-03 09:14:39,912 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-03 09:14:40,331 - INFO - Generated timeline chart: ai_news_timeline_20250603_091405.png
