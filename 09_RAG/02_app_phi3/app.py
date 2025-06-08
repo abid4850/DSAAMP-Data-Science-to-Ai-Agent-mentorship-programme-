@@ -9,6 +9,7 @@ from langchain.document_loaders import PyPDFLoader, TextLoader      # For loadin
 from langchain.embeddings import OllamaEmbeddings                   # To embed text using Ollama models
 from langchain.vectorstores import Chroma                           # To store and search embeddings
 from langchain.llms import Ollama                                   # For connecting to Ollama LLM
+from langchain_community.llms import Ollama 
 from langchain.chains import RetrievalQA                            # LangChain chain for RAG
 
 # --- Available Phi Models ---
