@@ -123,7 +123,3 @@ if uploaded_file:
     if st.button('Download Word Count Table as CSV'):
         st.markdown(get_table_download_link(word_count, "word_count.csv", "Click Here to Download"), unsafe_allow_html=True)
 
-import matplotlib.pyplot as plt
-fig, ax = plt.subplots()
-ax.plot(...)
-st.pyplot(fig)
