@@ -26,7 +26,7 @@
 ```bash
 # create conda environment
 conda create -n hfp_env python=3.10 -y
-conda activate hf_env
+conda activate hfp_env
 # install transformers and datasets
 pip install transformers datasets ipykernel
 pip install torch torchvision torchaudio
