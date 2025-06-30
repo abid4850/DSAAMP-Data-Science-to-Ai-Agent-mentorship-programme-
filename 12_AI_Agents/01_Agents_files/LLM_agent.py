@@ -1,4 +1,3 @@
-```python
 # pip install "langchain-core>=0.3" langchain-anthropic langchain-community
 from langchain_anthropic import ChatAnthropic
 from langchain_community.tools.tavily_search import TavilySearchResults
@@ -16,4 +15,3 @@ config = {"configurable": {"thread_id": "demo"}}
 for step in agent.stream({"messages": ["What is the tallest mountain in Pakistan?"]},
                          config, stream_mode="values"):
     print(step["messages"][-1].content)
-```

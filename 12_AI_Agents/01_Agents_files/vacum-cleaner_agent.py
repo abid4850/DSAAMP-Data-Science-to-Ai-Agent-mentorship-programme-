@@ -1,5 +1,5 @@
-```python
-"""vacuum_agent.py – run with Python ≥3.8"""
+""" vacuum_agent.py – run with Python ≥3.8"""
+
 from random import choice
 
 # Environment -------------------------------------------------
@@ -39,4 +39,3 @@ while not env.is_done() and steps < 10:
     env.execute(action)
     steps += 1
 print(f"Done in {steps} steps → {env.state}")
-```
