@@ -1,5 +1,11 @@
-import streamlit as st
 import os
+# --- Automatic SSL_CERT_FILE fix for Windows/conda users ---
+if "SSL_CERT_FILE" in os.environ:
+    cert_path = os.environ["SSL_CERT_FILE"]
+    if not os.path.isfile(cert_path):
+        del os.environ["SSL_CERT_FILE"]
+
+import streamlit as st
 from langchain_ollama import OllamaLLM
 from rag_utils import load_document, create_vector_store, get_retriever
 from datetime import datetime

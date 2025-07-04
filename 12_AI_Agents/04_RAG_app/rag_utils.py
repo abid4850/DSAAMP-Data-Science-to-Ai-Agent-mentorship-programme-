@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from langchain_community.document_loaders import TextLoader, CSVLoader, PDFLoader, DocxLoader
+from langchain_community.document_loaders import TextLoader, CSVLoader, PyPDFLoader, UnstructuredWordDocumentLoader
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain_chroma import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -16,9 +16,9 @@ def load_document(file_path: str):
     elif ext == '.csv':
         loader = CSVLoader(file_path)
     elif ext == '.pdf':
-        loader = PDFLoader(file_path)
+        loader = PyPDFLoader(file_path)
     elif ext == '.docx':
-        loader = DocxLoader(file_path)
+        loader = UnstructuredWordDocumentLoader(file_path)
     else:
         raise ValueError(f"Unsupported file type: {ext}")
     return loader.load()
