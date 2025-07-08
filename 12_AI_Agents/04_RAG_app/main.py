@@ -30,7 +30,7 @@ st.markdown('''
 ''', unsafe_allow_html=True)
 
 st.set_page_config(page_title="Universal RAG Q&A App", layout="wide")
-st.sidebar.image("https://img.freepik.com/free-vector/gradient-stock-market-concept_23-2149166910.jpg", use_column_width=True)
+st.sidebar.image("https://img.freepik.com/free-vector/gradient-stock-market-concept_23-2149166910.jpg", use_container_width=True)
 st.sidebar.title("Universal RAG Q&A")
 st.sidebar.markdown("<span style='color:#6366f1;font-weight:600;'>Ask questions from your own documents using local LLMs!</span>", unsafe_allow_html=True)
 st.sidebar.info("Supports: CSV, PDF, Word, Text")
@@ -38,6 +38,23 @@ st.sidebar.markdown("---")
 
 st.markdown('<div class="main-header">Universal RAG Q&A App</div>', unsafe_allow_html=True)
 st.write("<span style='font-size:1.2rem;'>Upload a document (CSV, PDF, Word, or Text) and ask questions using Retrieval-Augmented Generation (RAG) with local LLMs!</span>", unsafe_allow_html=True)
+
+# Add sidebar option for fast model selection
+model_name = st.sidebar.selectbox(
+    "Choose LLM model (smaller = faster)",
+    ["llama3.2", "llama2", "phi3", "mistral", "tinyllama"],
+    index=0
+)
+retriever_k = st.sidebar.slider("Number of context chunks (lower = faster)", 1, 5, 2)
+st.sidebar.info("Tip: Use a smaller model and fewer context chunks for faster answers.")
+
+# Embedding model selection for speed
+embedding_model = st.sidebar.selectbox(
+    "Choose embedding model (smaller = faster)",
+    ["nomic-embed-text", "mxbai-embed-large", "tiny-embed"],
+    index=0
+)
+st.sidebar.info("Tip: Use a smaller embedding model for faster indexing.")
 
 # File upload
 uploaded_file = st.file_uploader("Upload your document", type=["csv", "pdf", "docx", "txt"])
@@ -49,12 +66,37 @@ if uploaded_file:
         f.write(uploaded_file.getbuffer())
     st.success(f"Uploaded {uploaded_file.name}")
 
-    # Load and embed document
-    with st.spinner("Loading and embedding document..."):
-        docs = load_document(file_path)
-        vector_store = create_vector_store(docs)
-        retriever = get_retriever(vector_store)
-    st.success("Document indexed and ready for Q&A!")
+    # Load and embed document with error handling
+    try:
+        with st.spinner("Loading and embedding document..."):
+            docs = load_document(file_path)
+            vector_store = create_vector_store(docs, embedding_model=embedding_model)
+            retriever = get_retriever(vector_store, k=retriever_k)
+        st.success("Document indexed and ready for Q&A!")
+    except Exception as e:
+        # If CSV fails, try renaming to .txt and reload automatically
+        if file_path.endswith('.csv'):
+            txt_path = file_path[:-4] + '.txt'
+            os.rename(file_path, txt_path)
+            try:
+                with st.spinner("Retrying as plain text..."):
+                    docs = load_document(txt_path)
+                    vector_store = create_vector_store(docs, embedding_model=embedding_model)
+                    retriever = get_retriever(vector_store, k=retriever_k)
+                st.success("Document indexed as plain text and ready for Q&A!")
+                file_path = txt_path
+            except Exception as e2:
+                st.error(f"Failed to load as CSV and as plain text: {e2}")
+                st.stop()
+        else:
+            # Show file preview for debugging
+            try:
+                with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                    preview = ''.join([next(f) for _ in range(5)])
+            except Exception as preview_err:
+                preview = f"Could not read file for preview: {preview_err}"
+            st.error(f"Failed to load or embed document: {e}\n\nFile preview (first 5 lines):\n{preview}")
+            st.stop()
 
     # Question input
     st.markdown("---")
@@ -62,8 +104,8 @@ if uploaded_file:
     question = st.text_input("Type your question here", key="question_input")
     if question:
         with st.spinner("Generating answer with local LLM..."):
-            llm = OllamaLLM(model="llama3.2")
-            context_docs = retriever.get_relevant_documents(question)
+            llm = OllamaLLM(model=model_name)
+            context_docs = retriever.invoke(question)
             context = "\n\n".join([d.page_content for d in context_docs])
             prompt = f"Context:\n{context}\n\nQuestion: {question}\nAnswer:"
             answer = llm.invoke(prompt)

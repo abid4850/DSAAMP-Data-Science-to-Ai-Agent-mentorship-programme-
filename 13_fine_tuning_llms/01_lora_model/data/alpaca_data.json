@@ -1,0 +1,47 @@
+[
+  {
+    "instruction": "What is photosynthesis?",
+    "input": "",
+    "output": "Photosynthesis is the process by which green plants convert sunlight into chemical energy."
+  },
+  {
+    "instruction": "Translate 'Good morning' to Spanish.",
+    "input": "",
+    "output": "Buenos d\u00edas"
+  },
+  {
+    "instruction": "Who is the author of '1984'?",
+    "input": "",
+    "output": "'1984' was written by George Orwell."
+  },
+  {
+    "instruction": "What is the boiling point of water?",
+    "input": "",
+    "output": "The boiling point of water is 100 degrees Celsius at standard atmospheric pressure."
+  },
+  {
+    "instruction": "Explain the concept of gravity.",
+    "input": "",
+    "output": "Gravity is a force that attracts two bodies towards each other, proportional to their masses and inversely proportional to the square of the distance between them."
+  },
+  {
+    "instruction": "Translate 'Thank you' to French.",
+    "input": "",
+    "output": "Merci"
+  },
+  {
+    "instruction": "What is the largest planet in our solar system?",
+    "input": "",
+    "output": "Jupiter is the largest planet in our solar system."
+  },
+  {
+    "instruction": "Name the process by which water changes from liquid to gas.",
+    "input": "",
+    "output": "The process is called evaporation."
+  },
+  {
+    "instruction": "Define the term 'ecosystem'.",
+    "input": "",
+    "output": "An ecosystem is a community of living organisms and their physical environment interacting as a system."
+  }
+]
